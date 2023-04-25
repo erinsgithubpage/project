@@ -1,5 +1,5 @@
 const express = require('express');
-const campsiteRouter = express.Router();
+const catRouter = express.Router();
 
 catRouter.route('/')
 .all((req, res, next) => {
